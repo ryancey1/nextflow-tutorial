@@ -16,12 +16,12 @@ println "reads: $params.reads"
 // Modify the script1.nf to print all the pipeline parameters using log.info instead of the println command and a multiline string statement.
 // Tip: see an example here: https://github.com/nextflow-io/rnaseq-nf/blob/42974a2/main.nf#L34-L40
 log.info """\
-        E X E R C I S E  1.2
-        ====================
-        transcriptome:   ${params.transcript}
-        reads        :   ${params.reads}
-        outdir       :   ${params.outdir}
-        """.stripIndent()
+         R N A S E Q - N F   P I P E L I N E    
+         ===================================
+         transcriptome: ${params.transcript}
+         reads        : ${params.reads}
+         outdir       : ${params.outdir}
+         """.stripIndent()
 
 // ============= Recap =============
 // In this step you have learned:
