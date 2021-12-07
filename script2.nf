@@ -1,3 +1,5 @@
+// Step 2 - Create transcriptome index file
+
 /* 
  * pipeline input parameters 
  */
@@ -10,7 +12,7 @@ params.multiqc = "$baseDir/multiqc"
 // that will be used as the pipeline output directory.
 params.outdir = "$baseDir/out_dir"
 
-println "reads: $params.reads"
+// println "reads: $params.reads"
 
 // exercise 1.2
 // Modify the script1.nf to print all the pipeline parameters using log.info instead of the println command and a multiline string statement.
